@@ -1,7 +1,7 @@
 // when the window is loaded this function will run
 window.onload = function () {
   // defining variables that will be used when using stopwatch
-  let seconds = 55;
+  let seconds = 00;
   let tenths = 00;
   let minutes = 00;
 
