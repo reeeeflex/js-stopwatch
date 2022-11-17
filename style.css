@@ -41,7 +41,18 @@ button {
   width: 8rem;
   background: none;
   background-color: #e76f51;
-  border: 1px solid black;
+  border: none;
+  outline: none;
+  text-align: center;
+  box-shadow: 0 9px #999;
+}
+button:hover {
+  background-color: #e97c61;
+}
+button:active {
+  background-color: #e97c61;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .buttons {
